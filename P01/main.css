@@ -1,0 +1,189 @@
+
+header{
+  background-color: #FFC9C9;
+  padding: 3rem;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 200
+  background-color: #FFFAEE;
+}
+
+.h1 {
+
+}
+
+section{
+  padding: 1rem;
+}
+
+.element {
+  background-color: white;
+  color: black;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black
+
+}
+code{
+  color: black;
+}
+p {
+  margin-top: 1rem;
+}
+
+
+code {
+  width: 30rem;
+  background-color: #FFC9C9;
+  padding: 0.5rem;
+  display: block;
+}
+
+.box {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  padding:20px;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+}
+
+.button-submit {
+  font-family: 'Application', sans-serif;
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  background-color: #FF0000;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+.button-submit:active, .button-submit:hover, .button-submit:focus{
+  background-color: #FFCB75;
+}
+
+.button-reset {
+  font-family: 'Application', sans-serif;
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  background-color: #000000;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+.button-reset:active, .button-reset:hover, .button-reset:focus{
+  background-color: #C1C1C1;
+}
+
+.button-redirect {
+  font-family: 'Application', sans-serif;
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  background-color: #FF0000;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+.button-redirect:active, .button-redirect:hover, .button-redirect:focus {
+  background-color: #FFCB75;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Application', sans-serif;
+}
+
+.text_link {
+  color: #FF0000;
+}
+
+.text_link:hover {
+  color: #FFC9C9;
+}
+
+.text_field {
+  font-family: 'Application', sans-serif;
+}
+.text_field:focus {
+  border-radius: 5px;
+}
+
+.text_field:hover {
+  border-radius: 5px;
+}
+
+
+
+img.listing-img{
+  display:block;
+  width:100%;
+  margin-right:auto;
+  transition: 0.7s;
+  opacity:1;
+
+}
+
+.swatch {
+  text-align: center;
+  padding: 4em 2em;
+  color: #FFFFFF;
+}
+.s1 {
+  background: #000000;
+}
+.s2 {
+  background: #FF0000;
+}
+.s3 {
+  background: #FFC9C9;
+}
+
+nav li {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #343847;
+  border-radius: 2px;
+}
+
+nav li a {
+  display: block;
+  color: red;
+  text-align: right;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: #FFC9C9;
+  color: black;
+  transition-duration: 1s;
+}
+
+section .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section .grid-container {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
